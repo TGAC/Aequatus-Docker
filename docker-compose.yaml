@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  tb:
+    image: tomcat
+    ports:
+      - "8889:8080"
+    volumes:
+      - ./webapps:/usr/local/tomcat/webapps
